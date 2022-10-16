@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+:root {
+    --primary-color: Coral;
+    --secondary-color:BurlyWood ;
+    --tertiary-color: SeaGreen; 
+}
+
+body {
+    background-image: url(../imagens/calculadora.png);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 15px;
+}
+
+#container {
+    background: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px var(--tertiary-color);
+    height: 525px;
+    margin: 100px auto;
+    width: 360px;
+}
+
+.title {
+    background: var(--tertiary-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: whitesmoke;
+    padding: 5px 5px 8px 8px;
+    width: 40px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    font-size: 12px;   
+    padding: 5px;
+    width: 180px;
+}
+
+.formSubmit {
+    background: var(--primary-color);
+    border-radius: 5px;
+    color: var(--tertiary-color);
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    height: 50px;
+    margin: 30px auto;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+#totalTip {
+    color: var(--tertiary-color);
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
